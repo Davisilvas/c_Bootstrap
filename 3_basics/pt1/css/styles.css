@@ -1,0 +1,123 @@
+h1{
+    color: red;
+}
+
+/* containter breakpoint lesson */
+.container-sm{
+    border: 2px solid #e0e0e0;
+    margin-bottom: 30px;
+}
+ 
+.container-lg{
+    border: 2px solid red;
+    margin-bottom: 30px;
+}
+ 
+.container-md{
+    border: 2px solid gold;
+    margin-bottom: 30px;
+}
+
+/* grid lesson */
+.container{
+    border: 5px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+}
+
+.row {
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+}
+
+.col,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-6,
+.col-11{
+    border: 2px dashed red;
+    height: 100%;
+    margin: 0;
+}
+
+#largura-limitada{
+    max-width: 500px;
+}
+
+/* Vertival align */
+.vertical{
+    height: 250px;
+    border-color: #ccff00;
+}
+.vertical .row{
+    height: 100%;
+}
+
+.col-6,
+.col-4,
+.vertical{
+    height: 50px;
+}
+
+#offset .col-md-3{
+    height: 50px;
+    border: 2 px solid blue;
+}
+
+#gutter .row{
+    height: 200px;
+}
+
+#gutter .col-6{
+    margin: auto;
+}
+
+.row p{
+    border: 2px solid chocolate;
+}
+
+
+
+
+
+
+ 
+
+/* SM >= 576px -> resolução de celulares*/
+@media(min-width: 576px){
+    h1{
+        color: blue;
+    }
+}
+
+/* MD  >=  768px -> resolução de tablets*/
+@media(min-width: 768px){
+    h1{
+        color: #ccff00;
+    }
+}
+
+/* LG >= 992px dispositivos com em torno de 15 pol */
+@media(min-width: 992px){
+    h1{
+        color: purple;
+    }
+}
+
+/* XL >= 1200px dispositivos em torno de 20 pol */
+@media(min-width: 1200px){
+    h1{
+        color: orangered;
+    }
+}
+
+/* XXL >= 1400 */
+@media(min-width: 1400px){
+    h1{
+        color: black;
+    }
+}
