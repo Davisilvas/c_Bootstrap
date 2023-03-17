@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSRAP LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="./assets/style.css">
+
+    <!-- BOOTSRAP SCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"
+        defer></script>
+    <title>login</title>
+</head>
+
+<body>
+
+    <div class="container col-11 col-md-9" id="form-container">
+        <div class="row gx-5">
+            <div class="col-md-6">
+                <h2>Realize o seu cadastro</h2>
+                <form>
+                    <div class="form-floating mb-3">
+                        <input type="text" name="name" id="name" class="form-control" placeholder="Digite o seu nome">
+                        <label for="name" class="form-label">Digite o seu nome</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="text" name="lastname" id="lastname" class="form-control"
+                            placeholder="Digite o seu sobrenome">
+                        <label for="lastname" class="form-label">Digite o seu sobrenome</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" name="email" id="email" class="form-control"
+                            placeholder="Digite o seu e-mail">
+                        <label for="email" class="form-label">Digite o seu e-mail</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" name="password" id="password" class="form-control"
+                            placeholder="Digite a sua senha">
+                        <label for="password" class="form-label">Digite a sua senha</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="password" name="confirmPassword" id="confirmPassword" class="form-control"
+                            placeholder="Confirme a sua senha">
+                        <label for="confirmPassword" class="form-label">Confirme a sua senha</label>
+                    </div>
+                    <div class="mb-3">
+                        <div class="form-check mb-2">
+                            <input type="checkbox" name="agree-form" id="agree-form" class="form-check-input" value="">
+                            <label for="agree-form" class="form-check-label">
+                                Você aceita os<a href="#"> termos deserviço?</a>
+                            </label>
+                        </div>
+                        <div class="form-check mb-2">
+                            <input type="checkbox" name="newsletter" id="newsletter" class="form-check-input" checked>
+                            <label for="newsletter" class="form-check-label">
+                                Deseja receber as nossas Newsletter?
+                            </label>
+                        </div>
+                        <input type="submit" value="Cadastrar" class="btn btn-primary">
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-6">
+                <div class="row align-items-center">
+                    <div class="col-12">
+                        <img src="./assets/img/hello.svg" alt="Tela de registro" class="img-fluid">
+                    </div>
+                    <div class="col-12" id="link-container">
+                        <a href="index.html">Eu já tenho uma conta</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
